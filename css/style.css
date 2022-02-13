@@ -15,33 +15,58 @@
     position:absolute;
     bottom: 12%;
 
-
 }
+
  
 #main{
     overflow: auto;
-    display: flex;
-    justify-content: space-around;
+    width: 100%;
 }
 
 #friend{
+    display: inline;
     color: red;
-    padding: 10px;
-    width: 50%;
+    margin-left: 30%;
+    border: 1px solid pink;
+    border-radius: 150px 140px;
 }
+
 
 span{
     margin-top: 20px;
 }
 
 #user{
-    padding: 10px;
-    margin-top: 20px;
+    padding-left: 10px;
+    width: 80%;
     color: green;
+}
+#user p{
+    font-size: 9px;
+    color: brown;
+    margin-top: 5px;
+}
+
+#user span{
+    border: 1px solid thistle;
+    border-radius: 150px 140px;
+    padding: 8px;
 }
 
 #start-btn{
     position: absolute;
     top: 40%;
     left: 40%;
+}
+
+#main #friend p{
+    padding: 0;
+    margin: 0;
+    color: blue;
+}
+
+#friend #date{
+    font-size: 8px;
+    color: brown;
+    margin-top: 5px;
 }

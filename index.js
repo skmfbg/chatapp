@@ -18,8 +18,7 @@ app.get('/',(req,res)=>{
 server.listen(process.env.PORT||6060, () => { console.log('listening on *:6060'); });
 
 io.on('connection',socket=>{
-   console.log(socket.id)
-
+   
    socket.on('client',data=>{
     socket.broadcast.emit('chat',data);
    })
