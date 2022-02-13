@@ -1,12 +1,11 @@
 #chat-div{
-    margin-left: 80px;
-    margin-top: 50px;
+    margin: 50px;
     border: 1px solid black;
     outline: 1px solid red;
     outline-color: aquamarine;
     outline-width: 35px;
     height: 80vh;
-    width: 80vmax;
+    width: auto;
     overflow: auto;
     padding-bottom: 10px;
     display: none;
@@ -44,5 +43,5 @@ span{
 #start-btn{
     position: absolute;
     top: 40%;
-    left: 48%;
+    left: 40%;
 }
